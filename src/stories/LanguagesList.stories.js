@@ -15,7 +15,7 @@ const payload = {
 }
 
 storiesOf('Languages List', module)
-  // .add('default data', () => <LanguagesList />)
+  .add('default data', () => <LanguagesList />)
   .add('with mock data', () => {
     fetchMock.restore().getOnce(
       'https://api.github.com/repos/facebook/react/languages',

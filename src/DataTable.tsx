@@ -45,11 +45,11 @@ const column: Column[] = [
     },
 ]
 
-const DataTable: React.FC<Params> = ({ data, loading }) => {
+const DataTable: React.FC<Params> = (prop) => {
     
     return (
         <div className="DataTable" style={{ padding: '0 50px', margin: 20 }}>
-            <Table loading={loading} dataSource={data} columns={column} />
+            <Table loading={prop.loading} dataSource={prop.data} columns={column} />
         </div>
     )
 }

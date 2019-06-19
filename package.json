@@ -48,7 +48,9 @@
     "babel-plugin-macros": "^2.6.1",
     "core-js": "2.6.9",
     "fetch-mock": "^7.3.3",
+    "react-chromatic": "^0.8.4",
     "react-test-renderer": "^16.8.6",
-    "require-context.macro": "^1.0.4"
+    "require-context.macro": "^1.0.4",
+    "storybook-chromatic": "^1.3.3"
   }
 }
